@@ -13,4 +13,4 @@ The objective is to compute equation 3) which is in turn dependent on 1) and 2).
 Creating a computation graph of these equations using tf would mean that we just need to run equation 3) within the tf session.
 Finally, the graph can be saved into a file and can be visualized using tensorboard with the following command in command line:
 
-python -m path/to/tensorboard.main-script --logdir=path/to/log-directory
+python -m path/to/tensorboard.main --logdir=path/to/log-directory
