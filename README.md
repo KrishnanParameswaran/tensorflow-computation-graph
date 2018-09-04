@@ -14,3 +14,5 @@ Creating a computation graph of these equations using tf would mean that we just
 Finally, the graph can be saved into a file and can be visualized using tensorboard with the following command in command line:
 
 python -m path/to/tensorboard.main --logdir=path/to/log-directory
+
+References - https://www.tensorflow.org/
